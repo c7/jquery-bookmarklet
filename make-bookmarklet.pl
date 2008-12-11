@@ -27,7 +27,4 @@ for ($bookmarklet) {
 $bookmarklet = "javascript:" .
     uri_escape_utf8($bookmarklet, qq('" \x00-\x1f\x7f-\xff));
 
-`/bin/echo -n 'h1. jQuery Bookmarklet
-
-Just drag this link to your bookmarks toolbar: "Add jQuery!":$bookmarklet
-' > README.textile`;
+print "<html><body><a href='$bookmarklet'>Add jQuery!</a></body></html>";
