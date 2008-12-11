@@ -1,3 +1,18 @@
 h1. jQuery Bookmarklet
 
-Just drag this link to your bookmarks toolbar: "Add jQuery!":javascript:(function()%20{if%20(typeof%20jQuery%20==%20%27undefined%27)%20{var%20e%20=%20document.createElement(%27script%27);e.onload%20=%20function()%20{jQuery.noConflict();};e.setAttribute(%27type%27,%20%27text/javascript%27);e.setAttribute(%27src%27,%20%27http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js%27);document.body.appendChild(e);}})();
+(c) 2008 Peter Hellberg (peter@c7.se)
+
+Released under The MIT License.
+
+A really simple bookmarklet that just adds jQuery to the current page.
+
+h2. How to use
+ 
+* Run `rake`, this will open generate the bookmarklet and open Firefox
+* Drag the "add jQuery!" link to your bookmarks bar
+* Click the bookmark to add jQuery to the current page
+
+h2. Alternatives
+
+If you need a more feature rich bookmarklet then check out 
+"jquery-console":http://github.com/jaz303/jquery-console/tree/master/
