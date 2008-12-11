@@ -1,0 +1,3 @@
+h1. jQuery Bookmarklet
+
+Just drag this link to your bookmarks toolbar: "Add jQuery!":javascript:(function()%20{if%20(typeof%20jQuery%20==%20%27undefined%27)%20{var%20e%20=%20document.createElement(%27script%27);e.onload%20=%20function()%20{jQuery.noConflict();};e.setAttribute(%27type%27,%20%27text/javascript%27);e.setAttribute(%27src%27,%20%27http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js%27);document.body.appendChild(e);}})();
