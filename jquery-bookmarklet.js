@@ -5,7 +5,7 @@
 		e.onload = function() { 
 			jQuery.noConflict();
 			
-			var l = 'Loaded jQuery' + jQuery.fn.jquery;
+			var l = 'Loaded jQuery ' + jQuery.fn.jquery;
 			
 			if(typeof console == 'undefined') {
 				alert(l);
