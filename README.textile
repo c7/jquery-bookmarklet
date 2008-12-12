@@ -8,7 +8,7 @@ A really simple bookmarklet that just adds jQuery to the current page.
 
 h2. How to use
  
-* Run `rake`, this will open generate the bookmarklet and open Firefox
+* Run `rake`, this will generate the bookmarklet and open Firefox
 * Drag the "add jQuery!" link to your bookmarks bar
 * Click the bookmark to add jQuery to the current page
 
