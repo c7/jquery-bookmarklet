@@ -16,7 +16,7 @@
 		};
     
 		e.setAttribute('type', 'text/javascript');
-    e.setAttribute('src', 'http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js');
+    e.setAttribute('src', 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
 		document.body.appendChild(e);
 	}
 })();
